@@ -1,0 +1,4 @@
+BASE_QUERY = """
+SELECT *
+FROM Bronze.VW_KANBAN_BASE
+"""
