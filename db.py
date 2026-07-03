@@ -5,10 +5,10 @@ import pandas as pd
 def get_connection():
     conn_str = (
         "DRIVER={ODBC Driver 17 for SQL Server};"
-        "SERVER=SRV-BI-01;"
-        "DATABASE=DW;"
-        "UID=SA;"
-        "PWD=T@dala!@#40;"
+        "SERVER;"
+        "DATABASE=;"
+        "UID=;"
+        "PWD=******;"
         "TrustServerCertificate=yes;"
     )
 
