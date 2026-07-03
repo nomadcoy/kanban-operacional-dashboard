@@ -1,20 +1,34 @@
-Kanban Operacional Dashboard
+# 📺 Kanban Operacional Dashboard
 
-Dashboard desenvolvido em Python e Streamlit para monitoramento de projetos, consumindo dados de DW (SQL Server).
+Dashboard desenvolvido em **Python + Streamlit** para acompanhamento operacional de projetos.
 
-Principais recursos:
+![Dashboard](assets/dashboard.png)
 
-• Indicadores executivos
-• Gráfico de status das tarefas
-• Alertas operacionais
-• Rotação automática entre projetos
-• Atualização automática
-• Layout otimizado para TV
+## Funcionalidades
 
-Tecnologias
+- 📊 Indicadores executivos
+- 📈 Gráficos interativos (Plotly)
+- 🔄 Rotação automática entre projetos
+- 📺 Layout otimizado para TVs
+- 🔄 Atualização automática
+- 🗄️ Integração com SQL Server
+
+## Tecnologias
 
 - Python
 - Streamlit
 - Plotly
-- SQL Server
 - Pandas
+- SQL Server (pyodbc)
+
+## Estrutura
+
+```text
+components/
+pages/
+utils/
+assets/
+app.py
+config.py
+db.py
+```
